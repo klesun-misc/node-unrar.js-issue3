@@ -29,6 +29,5 @@ dist/test*
 .npmrc
 umd
 
-src/cpp/unrar
 .vscode
 .npmrc
