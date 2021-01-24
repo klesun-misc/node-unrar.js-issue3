@@ -29101,9 +29101,9 @@ function __ZN10RAROptions4InitEv($0) {
  HEAP32[$18>>2] = 2147483647; //@line 27 "./src/cpp/unrar/options.cpp"
  $19 = ((($2)) + 49728|0); //@line 28 "./src/cpp/unrar/options.cpp"
  HEAP32[$19>>2] = 2; //@line 28 "./src/cpp/unrar/options.cpp"
- $20 = ((($2)) + 16400|0); //@line 33 "./src/cpp/unrar/options.cpp"
- HEAP32[$20>>2] = 1; //@line 33 "./src/cpp/unrar/options.cpp"
- STACKTOP = sp;return; //@line 35 "./src/cpp/unrar/options.cpp"
+ $20 = ((($2)) + 16400|0); //@line 37 "./src/cpp/unrar/options.cpp"
+ HEAP32[$20>>2] = 0; //@line 37 "./src/cpp/unrar/options.cpp"
+ STACKTOP = sp;return; //@line 39 "./src/cpp/unrar/options.cpp"
 }
 function __ZN5ArrayIxED2Ev($0) {
  $0 = $0|0;
