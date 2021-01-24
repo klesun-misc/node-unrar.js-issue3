@@ -30,6 +30,10 @@ void RAROptions::Init()
   Threads=GetNumberOfThreads();
 #endif
 #ifdef USE_QOPEN
-  QOpenMode=QOPEN_AUTO;
+  // changed from AUTO to NONE by klesun
+  // this is probably possible to pass from js somehow without changing the cpp code, but I dunno how
+  // changing this to NONE is necessary to skip integrity validation that
+  // jumps over all RAR file and fails with READ_ERROR if file is incomplete
+  QOpenMode=QOPEN_NONE;
 #endif
 }
